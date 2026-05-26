@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 String heightText = editHeight.getText().toString();
                 String ageText = editAge.getText().toString();
 
-                // Obsługa błędów
+                
                 if(weightText.isEmpty() ||
                         heightText.isEmpty() ||
                         ageText.isEmpty()) {
